@@ -1,0 +1,203 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.perspiciatis{
+	width: 1020px;
+	margin: 0 auto;
+	background: #F5F5F5;
+}
+.perspiciatis_logo{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	background: url(../img/icons/logo\ icon.svg) 0 0 no-repeat;
+	padding: 2px 0 0 31px;
+	margin: 0 0 33px 0;
+}
+.perspiciatis_title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000;
+	margin: 0 0 78px 0;
+}
+.perspiciatis_body{
+	width: 324px;
+	height: 340px;
+	background: #fff;
+	border-radius: 20px;
+	text-align: center;
+	padding: 50px 43px;
+	margin: 0 20px 24px 0;
+	display: inline-block;
+}
+
+.perspiciatis_body:hover{
+	box-shadow: 0 5px 10px 5px rgb(185, 184, 184);
+}
+.box{
+	margin-right: 0;
+}
+.perspiciatis_icon{
+	margin: 0 0 33px 0;
+}
+
+.perspiciatis_body-title{
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0 0 20px 0;
+}
+.perspiciatis_body-text{
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+
+}
+.box_wraper{
+	margin: 0 0 56px 0;
+}
+.button{
+	width: 125px;
+	margin: 0 auto;
+
+}
+.link{
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFF;
+	background: #F2726F;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 9px 20px;
+	margin: 0 0 100px 0;
+}
+
+.impact{
+	height: 550px;
+	background: #29C3BE;
+}
+
+.impact_head{
+	width: 415px;
+	margin: 110px 103px 70px 0;
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
+
+.impact_logo{
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/ikon.svg) 0 0 no-repeat;
+	padding: 2px 0 0 31px;
+	margin: 0 0 30px 0;
+}
+.impact_title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFF;
+}
+.impact_image{
+	vertical-align: top;
+	border-radius: 41px;
+	margin: -70px 0 0 0;
+}
+
+.impact_body{
+	display: inline-block;
+	width: 230px;
+	margin: 0 24px 0 0;
+	text-align: center;
+}
+.milk{
+	margin-right: 0;
+}
+.impact_icon{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 3px 0 0;
+
+}
+.impact_box{
+display: inline-block;
+}
+.impact_body-title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.impact_body_text{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+.impact_wraper{
+	margin: 0 0 50px 0;
+}
+
+
